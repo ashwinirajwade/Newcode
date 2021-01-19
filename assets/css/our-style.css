@@ -1,0 +1,139 @@
+body {font-family: 'Roboto', sans-serif; font-size:14px; line-height:22px; color:#000; margin:0px; padding:0px;}
+/*Common CSS Start*/
+h1,h2,h3,h4,h5,h6 {margin:0px;}
+h1 {font-size:30px; font-weight:600;}
+h2 {font-size:28px; font-weight:600;}
+h3 {font-size:26px; font-weight:600;}
+h4 {font-size:24px; font-weight:600;}
+h5 {font-size:16px; font-weight:600;}
+/* {transition: all 500ms ease 0s;}*/
+a, a:hover {transition: all 500ms ease 0s; text-decoration:none;}
+.mt10 {margin-top:10px;}
+.mb10 {margin-bottom:10px;}
+.mt20 {margin-top:20px;}
+.mb20 {margin-bottom:20px;}
+.mt30 {margin-top:30px !important;}
+.mb30 {margin-bottom:30px !important;}
+.mt40 {margin-top:40px;}
+.mb40 {margin-bottom:40px;}
+.mt60 {margin-top:50px;}
+.mb60 {margin-bottom:50px;}
+.pad0 {padding:0px;}
+label {margin:0px; font-weight:600;}
+img {width:100%;}
+/*Common CSS Start*/
+
+.wrapper {width:1170px; margin:0 auto; overflow:hidden; padding:20px;} 
+.row1 {margin-bottom:30px; overflow:hidden;}
+.logo {width:10%; float:left; margin-right:5%;}
+.logoleft {width:85%; float:left;}
+.logoleft .top {width:100%; overflow:hidden; margin-bottom:20px;}
+.logoleft .top .left {width:50%; float:left;}
+.logoleft .top .right {width:50%; float:left; text-align:right;}
+.logoleft .bottom h1 {color:#9e4f72;}
+.logoleft .bottom ul {padding-left:5px; clear:left; margin-bottom:5px; overflow:hidden;}
+.logoleft .bottom ul li {margin:0px 10px; float:left;}
+.logoleft .bottom .address {width:100%; clear:left; border-top:1px solid #9e4f72; border-bottom:1px solid #9e4f72;}
+
+.row2 {clear:left; margin-bottom:30px;}
+.row2 .quotation {width:100%;}
+.row2 .quotation h2 {background-color:#e0e2e4; padding:15px; text-align:center;}
+.row2 .quotation .innerrow {background-color:#f6f6f6; overflow:hidden; border:1px solid #ececec;}
+.row2 .quotation .left {width:48%; float:left; padding:1%;}
+.row2 .quotation .left label {width:20%; display:inline-block;}
+.row2 .quotation .right {width:auto; float:left; border-left:1px solid #e0e2e4; padding-left:1%; padding:1%;}
+
+table {border-collapse:collapse;}
+table td, table th {border:1px solid #ececec; padding:8px; text-align:left;}
+table th {background-color:#333; color:#fff;}
+.row3 .total {background-color:#85c1f8; padding:8px; color:#fff;}
+.row3 .total .totalamt {width:30%; margin-left:auto; display:flex; justify-content:space-between; font-weight:600; font-size:18px; margin-bottom:5px;}
+.row3 .total .totalamtwords {text-align:right;}
+.row3 .total .totalamtwords p {margin:0px;}
+
+.row4 {margin-top:30px;}
+.row4 .terms {margin-bottom:30px;}
+.row4 .regards p:first-child {margin-bottom:50px;}
+.gst {text-align:center; margin-bottom:30px;}
+.footer {text-align:center;}
+.footer1 {text-align:center;}
+@media print{
+.wrapper {width:1000px; margin:0 auto; overflow:hidden; padding:20px;} 
+.row1 {margin-bottom:30px; overflow:hidden;}
+.logo {width:10%; float:left; margin-right:5%;}
+.logoleft {width:85%; float:left;}
+.logoleft .top {width:100%; overflow:hidden; margin-bottom:20px;}
+.logoleft .top .left {width:50%; float:left;}
+.logoleft .top .right {width:50%; float:left; text-align:right;}
+.logoleft .bottom h1 {color:#9e4f72;}
+.logoleft .bottom ul {padding-left:5px; clear:left; margin-bottom:5px; overflow:hidden;}
+.logoleft .bottom ul li {margin:0px 10px; float:left;}
+.logoleft .bottom .address {width:100%; clear:left; border-top:1px solid #9e4f72; border-bottom:1px solid #9e4f72;}
+
+.row2 {clear:left; margin-bottom:30px;}
+.row2 .quotation {width:100%;}
+.row2 .quotation h2 {-webkit-print-color-adjust: exact; background-color:#e0e2e4 !important; padding:15px; text-align:center;}
+.row2 .quotation .innerrow {background-color:#f6f6f6 !important; -webkit-print-color-adjust: exact; overflow:hidden; border:1px solid #ececec;}
+.row2 .quotation .left {width:48%; float:left; padding:1%;}
+.row2 .quotation .left label {width:20%; display:inline-block;}
+.row2 .quotation .right {width:auto; float:left; border-left:1px solid #e0e2e4; padding-left:1%; padding:1%;}
+
+table {border-collapse:collapse;}
+table td, table th {border:1px solid #ececec; padding:8px; text-align:left;}
+table th {background-color:#333 !important; -webkit-print-color-adjust: exact; color:#fff;}
+.row3 .total {background-color:#85c1f8 !important; -webkit-print-color-adjust: exact; padding:8px; color:#fff;}
+.row3 .total .totalamt {width:30%; margin-left:auto; display:flex; justify-content:space-between; font-weight:600; font-size:18px; margin-bottom:5px;}
+.row3 .total .totalamtwords {text-align:right;}
+.row3 .total .totalamtwords p {margin:0px;}
+
+.row4 {margin-top:30px;}
+.row4 .terms {margin-bottom:30px;}
+.row4 .regards p:first-child {margin-bottom:50px;}
+.gst {text-align:center; margin-bottom:30px;}
+.footer {text-align:center;}
+}
+
+/*Second Page CSS Start*/
+.logoleftpage2 {text-align:center;}
+.logoleftpage2 .bottom .address {border:none;}
+.row2 .quotation2page .innerrow {display:flex; background:none; border:none;}
+.row2 .quotation2page .form-group {border-bottom:1px solid #333;}
+.row2 .quotation2page .left {width:50%; padding:0px; position:relative;}
+.row2 .quotation2page .left::after {content: ''; border-right: 1px solid #333; position: absolute; right: 0;
+    height: 100%; top: 0; margin-right: 15px;}
+.row2 .quotation2page .right {width:50%; padding:0px; border:none;}
+.row2 .quotation2page .left label {width:auto;}
+.row2 .quotation2page .d-flex {display:flex; justify-content:space-between;}
+.row2 .quotation2page .d-flex div:last-child {position:relative; left:-80px;}
+
+.row2 .quotation2page:first-child {margin-bottom:30px;}
+.row2 .quotation2page h5 {background-color: #e0e2e4; padding: 10px; text-align: center;}
+.row2 .quotation2page .addressheight {height:50px;}
+.signtr {position:relative; vertical-align:top;}
+.certified {position:absolute; left:0; right:0; top:10px;}
+.sign {position:absolute; left:0; right:0; bottom:10px;}
+.commonseal {position:relative; top:156px;}
+/*Second Page CSS End*/
+
+@media print{
+	/*Second Page CSS Start*/
+.logoleftpage2 {text-align:center;}
+.logoleftpage2 .bottom .address {border:none;}
+.row2 .quotation2page .innerrow {display:flex; background:none; border:none;}
+.row2 .quotation2page .form-group {border-bottom:1px solid #333;}
+.row2 .quotation2page .left {width:50%; padding:0px; position:relative;}
+.row2 .quotation2page .left::after {content: ''; border-right: 1px solid #333; position: absolute; right: 0;
+    height: 100%; top: 0; margin-right: 15px;}
+.row2 .quotation2page .right {width:50%; padding:0px; border:none;}
+.row2 .quotation2page .left label {width:auto;}
+.row2 .quotation2page .d-flex {display:flex; justify-content:space-between;}
+.row2 .quotation2page .d-flex div:last-child {position:relative; left:-80px;}
+
+.row2 .quotation2page:first-child {margin-bottom:30px;}
+.row2 .quotation2page h5 {background-color: #e0e2e4; padding: 10px; text-align: center;}
+.row2 .quotation2page .addressheight {height:50px;}
+.signtr {position:relative; vertical-align:top;}
+.certified {position:absolute; left:0; right:0; top:10px;}
+.sign {position:absolute; left:0; right:0; bottom:10px;}
+/*Second Page CSS End*/
+}
